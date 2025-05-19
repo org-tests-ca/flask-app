@@ -9,7 +9,7 @@ on:
 
 jobs:
   ci:
-    runs-on: self-hosted
+    runs-on: [self-hosted, linux, org-runner]
     steps:
 
       - uses: actions/checkout@v3
