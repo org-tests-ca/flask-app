@@ -28,7 +28,7 @@ jobs:
         with:
           push: true
           #tags: clecio/python-app:${{ env.COMMIT_ID }}
-          tags: clecio/python-app:${{ GITHUB_SHA::6 }}
+          tags: clecio/python-app:${{GITHUB_SHA::6}}
     outputs:
       commit_id: ${{ env.COMMIT_ID }}
 
